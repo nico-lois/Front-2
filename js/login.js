@@ -3,7 +3,7 @@ async function iniciarSesion() {
   const password = document.getElementById("contraseña").value;
 
   const request = await fetch(
-    "https://localhost:8080/login?username=" +
+    "https://18.118.112.139:8080/login?username=" +
       username +
       "&password=" +
       password,
